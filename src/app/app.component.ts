@@ -43,4 +43,8 @@ export class AppComponent implements OnInit {
     if(foundPlayer)
       foundPlayer.show = false
   }
+
+  routeToConfig() {
+    window.location.href = "/config"
+  }
 }

@@ -2,9 +2,16 @@ button {
     margin: 10px;
 }
 
+.free-draft-button {
+    position: fixed;
+    top: 73vh;
+    right: 5vw;
+    z-index: 9999;
+}
+
 .refresh-button {
     position: fixed;
-    top: 92vh;
+    top: 80vh;
     right: 5vw;
     z-index: 9999;
 }

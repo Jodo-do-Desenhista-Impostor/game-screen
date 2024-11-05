@@ -44,6 +44,10 @@ export class AppComponent implements OnInit {
       foundPlayer.show = false
   }
 
+  routeToFreeDraft() {
+    window.location.href = "/free-draft"
+  }
+
   routeToConfig() {
     window.location.href = "/config"
   }
